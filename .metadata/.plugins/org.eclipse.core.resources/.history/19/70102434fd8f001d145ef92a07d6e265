@@ -1,0 +1,19 @@
+package com.prospecta;
+
+public class Entry {
+
+	
+	private String api;
+	
+	private String description;
+	
+	private String auth;
+	
+	private boolean https;
+	
+	private String cors;
+	
+	
+	private String category;
+	
+}
