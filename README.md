@@ -49,15 +49,6 @@ http://localhost:8880/entries
 ### Request Body
 ```
 {
-    "name":"Om Mishra",
-   "email":"omanubhav@gmail.com",
-   "password":"anubhav123"
-}
-```
-### Response Body
-
-```
-{
             "API": "Anubhav",
             "Description": "A new entry added",
             "Auth": "apiKey",
@@ -66,6 +57,11 @@ http://localhost:8880/entries
             "Link": "https://www.adoptapet.com/public/apis/pet_list.html",
             "Category": "New"
   }
+```
+### Response Body
+
+```
+Added
 ```
 # Sample API Response for Getting By Category
 ### Request Type
