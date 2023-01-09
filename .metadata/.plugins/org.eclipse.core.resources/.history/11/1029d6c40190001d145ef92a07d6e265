@@ -1,0 +1,9 @@
+package com.prospecta.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.prospecta.entity.Entry;
+
+public interface DataRepo extends JpaRepository<Entry, Integer>{
+
+}

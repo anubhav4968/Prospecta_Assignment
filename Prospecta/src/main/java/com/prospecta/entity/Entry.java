@@ -2,8 +2,16 @@ package com.prospecta.entity;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
+
 public class Entry {
 
+	@Id
+    private int id;
+	
 	@JsonProperty("API")
 	private String api;
 	

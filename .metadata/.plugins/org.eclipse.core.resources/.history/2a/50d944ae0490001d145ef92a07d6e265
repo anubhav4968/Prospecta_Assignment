@@ -1,0 +1,20 @@
+package com.prospecta.repository;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.prospecta.EntryService;
+import com.prospecta.entity.Entry;
+
+public class EntryServiceImp implements EntryService{
+
+	@Autowired
+	private EntryRepo entryRepo;
+	
+	@Override
+	public String addEntry(Entry entry) {
+		
+		Entry savedEntry=this.entryRepo.save(entry);
+		return "Added";
+	}
+
+}
