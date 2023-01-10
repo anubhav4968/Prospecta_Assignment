@@ -187,5 +187,4 @@ http://localhost:8880/entries/Animals
     }
 
 ```
-
 # Thanks For Taking Time
