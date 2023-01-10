@@ -2,6 +2,7 @@
 <li>I have developed this REST API for a getting details by category and adding new Entries. This API performs
   getting details by category and adding new entry</li>
 
+
 # Tech Stack
 - Java
 - Spring Framework
@@ -14,6 +15,7 @@
 
 - Gettig by Category
 - Adding new Entry
+
 
 # Installation & Run
  - Before running the API server, you should update the database config inside the application.properties file.
@@ -32,8 +34,10 @@
 ```
 https://localhost:8880/
 ```
-```
+
 # API Reference
+
+
 
 # Sample API Response for Adding New Entry
 ### Request Type
@@ -56,7 +60,7 @@ http://localhost:8880/entries
             "Cors": "yes",
             "Link": "https://www.adoptapet.com/public/apis/pet_list.html",
             "Category": "New"
-  }
+}
 ```
 ### Response Body
 
@@ -73,11 +77,11 @@ GET
 ```
 http://localhost:8880/entries/Animals
 ```
+
 ### Response Body
 
 ```
-
-    {
+{
         "title": "AdoptAPet",
         "description": "Resource to help get pets adopted"
     },
@@ -185,6 +189,5 @@ http://localhost:8880/entries/Animals
         "title": "Zoo Animals",
         "description": "Facts and pictures of zoo animals"
     }
-
 ```
 # Thanks For Taking Time
