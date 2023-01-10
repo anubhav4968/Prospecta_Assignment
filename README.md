@@ -76,7 +76,7 @@ http://localhost:8880/entries/Animals
 ### Response Body
 
 ```
-[
+
     {
         "title": "AdoptAPet",
         "description": "Resource to help get pets adopted"
@@ -185,6 +185,6 @@ http://localhost:8880/entries/Animals
         "title": "Zoo Animals",
         "description": "Facts and pictures of zoo animals"
     }
-]
+
 ```
 # Thanks For Taking Time
